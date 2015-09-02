@@ -49,6 +49,10 @@ module.exports = function (grunt) {
     async.eachLimit(this.files, concurrencyCount, function (file, next) {
       var src = file.src[0];
 
+      if (!file.partials &&  path.basename(src)[0] === '_') {
+        return next();
+      }
+
       var args = [
         src,
         file.dest
