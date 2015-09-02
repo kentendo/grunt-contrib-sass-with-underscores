@@ -1,16 +1,16 @@
 {
-  "name": "grunt-contrib-sass",
+  "name": "grunt-contrib-sass-with-underscores",
   "description": "Compile Sass to CSS",
   "version": "0.9.2",
   "author": {
     "name": "Grunt Team",
     "url": "http://gruntjs.com/"
   },
-  "repository": "gruntjs/grunt-contrib-sass",
+  "repository": "kentendo/grunt-contrib-sass-with-underscores",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-contrib-sass/blob/master/LICENSE-MIT"
+      "url": "https://github.com/gruntjs/grunt-contrib-sass-with-underscores/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
